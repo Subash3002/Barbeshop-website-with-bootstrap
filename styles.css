@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#159895), url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.form-control::placeholder {
+    color: white !important;
+    opacity: 1;
+}
+.min-vh-80 {
+    min-height: 80vh;
+  }
+
+#body1{
+    width: 100%;
+    padding: 50px 0;
+}
+.bbr-img{
+    margin: 50px;
+    height: 350px;
+    width: 350px;
+    background: linear-gradient(rgba(0,0,0,0.5),#159895), url(img/barber-man.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+.parent {
+    background: linear-gradient(rgba(0,0,0,0.5),#159895), url(img/service1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .child {
+    text-align: center;
+    width: 30%;
+  }
+footer{
+    background-color: #159895;;
+}
+.email-input2 {
+    width: 200px; 
+  }
+  
+
+
+  
+  
